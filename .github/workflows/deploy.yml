@@ -18,7 +18,20 @@ jobs:
           node-version: '18'
 
       - name: Install dependencies
-        run: npm install --legacy-peer-deps
+        run: |
+          npm install --legacy-peer-deps
+          npm list react-scripts typescript @types/react
+
+      - name: Show project structure
+        run: |
+          pwd
+          ls -la
+          echo "=== src directory ==="
+          ls -la src/
+          echo "=== package.json ==="
+          cat package.json
+          echo "=== tsconfig.json ==="
+          cat tsconfig.json
 
       - name: Build
         run: npm run build
