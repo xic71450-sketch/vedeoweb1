@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/vedeoweb/static/js/main.6e6ec159.js",
-    "index.html": "/vedeoweb/index.html",
-    "main.6e6ec159.js.map": "/vedeoweb/static/js/main.6e6ec159.js.map"
+    "main.js": "/vedeoweb1/static/js/main.549bfb2b.js",
+    "index.html": "/vedeoweb1/index.html",
+    "main.549bfb2b.js.map": "/vedeoweb1/static/js/main.549bfb2b.js.map"
   },
   "entrypoints": [
-    "static/js/main.6e6ec159.js"
+    "static/js/main.549bfb2b.js"
   ]
 }
