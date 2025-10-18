@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import AuthGate from "./components/AuthGate";
-import Home from "./components/Home";
-import Upload from "./components/Upload";
-import VideoList from "./components/VideoList";
+import AuthGate from "./components/AuthGate.tsx";
+import Home from "./components/Home.tsx";
+import Upload from "./components/Upload.tsx";
+import VideoList from "./components/VideoList.tsx";
 
 const App: React.FC = () => {
   const [authed, setAuthed] = useState(false);
